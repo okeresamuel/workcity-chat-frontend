@@ -1,12 +1,53 @@
-# React + Vite
+# Workcity Chat Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real-time chat application frontend built for seamless communication and collaboration.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend Framework**: React.js
+- **Styling**:Tailwind CSS
+- **State Management**: Redux toolkit
+- **Real-time Communication**: Socket.io Client
+- **HTTP Client**: Rtk query
+- **Routing**: React Router
+- **Build Tool**: Vite / Create React App
+- **Package Manager**: npm
+- **Version Control**: Git
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before you begin, ensure you have the following installed:
+
+- Node.js (version 16.0 or higher)
+- npm or yarn package manager
+- Git
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/okeresamuel/workcity-chat-frontend.git
+cd workcity-chat-frontend
+```
+
+### 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 4. Start the development server
+```bash
+npm run dev
+
+The application will open at `http://localhost:5173`
+
+## ✨ Features
+
+- **Real-time Messaging**: Instant message delivery using WebSockets
+- **User Authentication**: Secure login and registration system
+- **Chat Rooms**: Create and join different chat channels
+- **User Presence**: See who's online and active
+- **Message History**: Persistent chat history
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
